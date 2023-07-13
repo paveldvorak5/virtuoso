@@ -1,0 +1,26 @@
+{
+  "name": "rspack-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rspack -c ./config.mjs",
+    "dev": "yarn rspack dev -c ./config.mjs",
+    "preview": "yarn build; rspack preview dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rspack/cli": "nightly",
+    "copy-webpack-plugin": "^11.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-virtuoso": "^4.4.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14"
+  },
+  "packageManager": "yarn@3.6.1"
+}
